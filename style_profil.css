@@ -1,0 +1,87 @@
+body {
+  background-color: #f4fefe;
+  font-family: 'Lora', serif;
+  color: #575F7D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #575F7D;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h2 {
+  color: #7ECE90;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+a {
+  color: #575F7D;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 20%;
+  width: 110px;
+  height: 110px;
+  margin: 16px auto;
+  display: block;
+}
+
+.passion-img {
+  width: 100%;
+  max-height: 260px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin: 16px 0 8px;
+  display: block;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 16px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
